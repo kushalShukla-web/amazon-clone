@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
-import stateContext from './Context'
-import "./Product.css"
+import stateContext from './Context/Context.js'
+import "./css/Product.css"
 function Checkout() {
     const {bucket,SetBucket} = useContext(stateContext)
     console.log(bucket)

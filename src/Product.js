@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
-import "./Product.css"
-import stateContext from './Context'
+import "./css/Product.css"
+import stateContext from './Context/Context.js'
 
 function Product({image,rating,price,title}) {
    const {bucket,SetBucket} = useContext(stateContext)

@@ -1,7 +1,8 @@
 import React,{useContext} from "react";
 import SearchIcon from '@mui/icons-material/Search';
-import stateContext from './Context'
-import './App.css';
+import stateContext from './Context/Context.js'
+
+import './css/App.css';
 import {
     Link
   } from "react-router-dom";
