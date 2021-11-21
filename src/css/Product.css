@@ -1,19 +1,25 @@
-.product{
+.product {
     /* border:5px solid red; */
     display:flex;
     flex-direction:column;
+    justify-content: space-between;
+    box-sizing: border-box;
     box-shadow: 0.75em 0.75em 1em;
     transition: 0.3s;
+    min-width: 300px;
      width: 35%;
-     height: 100%;
+     height: inherit;
     border-radius: 5px;
+    margin: 15px 25px;
 }
 .product > img{
     max-height:200px;
-    width:100%;
     object-fit:contain;
-    margin-left:15%;
+    margin: 20px auto;
     /* border:5px solid blue; */
-    width:50%
+    width:50%;
+}
 
+.productInfo {
+    padding: 0px 10px;
 }

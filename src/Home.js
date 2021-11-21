@@ -20,7 +20,7 @@ function Home() {
                 price={18.6}
             />
            </div>
-           <div>
+           <div className="product_poster">
            <Product
             title="Buy SONY TV braviea online. get 30% discount!!"
                 image="https://m.media-amazon.com/images/I/81t9bFDmxBS._AC_UY327_FMwebp_QL65_.jpg"
